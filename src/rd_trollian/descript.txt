@@ -1,0 +1,97 @@
+
+charset,UTF-8
+use_self_alpha,1
+type,balloon
+
+name,Trollian
+
+craftman,VermilionDev
+craftmanw,VermilionDev
+craftmanurl,https://github.com/VermilionDev
+
+homeurl,https://raw.githubusercontent.com/vermilionDev/ukagaka-HS-trollian/main/src/rd_trollian/
+
+//default balloon position before the user starts moving it around
+windowposition.x,0
+windowposition.y,0
+
+//typing box dimentions for the smallest one
+origin.x,13
+origin.y,45
+
+validrect.left,13
+validrect.top,45
+validrect.right,282
+validrect.bottom,157
+
+wordwrappoint.x,280
+wordwrappoint.y,0
+
+//balloon's font is normally black
+font.name,Courier New
+font.bold,1
+font.height,12
+font.color.r,0
+font.color.g,0
+font.color.b,0
+
+//colour of URLs in text
+anchor.font.color.r,0
+anchor.font.color.g,0
+anchor.font.color.b,205
+//choice style
+cursor.blendmethod,none
+cursor.style,underline
+
+//underline colour
+cursor.pen.color.r,0
+cursor.pen.color.g,0
+cursor.pen.color.b,205
+//choice text colour
+cursor.font.color.r,0
+cursor.font.color.g,0
+cursor.font.color.b,205
+
+//top arrow
+arrow0.x,291
+arrow0.y,22
+//bottom arrow
+arrow1.x,291
+arrow1.y,137
+
+//animation that cycles when connecting to the internet
+onlinemarker.interval,175
+onlinemarker.x,21
+onlinemarker.y,5
+//the symbol that appears next to choices
+sstpmarker.x,13
+sstpmarker.y,145
+
+//message and numbers here are tucked into the "2nd header" of the balloon,
+//since i cant put usernames there dynamically
+sstpmessage.font.height,9
+sstpmessage.font.color.r,255
+sstpmessage.font.color.g,255
+sstpmessage.font.color.b,255
+sstpmessage.x,14
+sstpmessage.y,27
+
+number.font.name,CourierStd
+number.font.height,10
+number.font.color.r,255
+number.font.color.g,255
+number.font.color.b,255
+number.xr,-22
+number.y,27
+
+//send, input, teach, and communicate box parameters
+communicatebox.font.name,Courier New
+communicatebox.font.bold,1
+communicatebox.x,10
+communicatebox.y,39
+communicatebox.width,275
+communicatebox.height,19
+
+//the icon that shows in the bottom right to tell the user to click before continuing
+clickwaitmarker.x,267
+clickwaitmarker.y,142
